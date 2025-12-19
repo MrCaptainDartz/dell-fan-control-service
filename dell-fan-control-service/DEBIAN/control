@@ -1,0 +1,8 @@
+Package: dell-fan-control-service
+Version: 1.1.0
+Section: misc
+Priority: optional
+Architecture: all
+Depends: ipmitool
+Maintainer: MrCaptainDartz <contact@captaindartz.org>
+Description: Dell Poweredge fan control via ipmitool. Enforce custom curve until 60 C to lower noise

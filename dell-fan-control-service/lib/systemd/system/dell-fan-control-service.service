@@ -1,0 +1,6 @@
+[Unit]
+Description=Dell Fan Control
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/bin/dell-fan-control.sh

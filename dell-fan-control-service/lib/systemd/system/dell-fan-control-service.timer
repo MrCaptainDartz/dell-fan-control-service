@@ -1,0 +1,10 @@
+[Unit]
+Description=Start dell-fan-control every 15s
+
+[Timer]
+OnBootSec=60s
+OnUnitActiveSec=59s
+AccuracySec=2s
+
+[Install]
+WantedBy=timers.target

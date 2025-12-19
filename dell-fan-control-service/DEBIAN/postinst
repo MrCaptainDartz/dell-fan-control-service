@@ -1,0 +1,4 @@
+#!/bin/sh
+systemctl --system daemon-reload
+systemctl enable dell-fan-control-service.timer
+systemctl start dell-fan-control-service.timer
