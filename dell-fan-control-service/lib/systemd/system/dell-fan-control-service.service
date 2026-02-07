@@ -3,4 +3,4 @@ Description=Dell Fan Control
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash /usr/bin/dell-fan-control.sh
+ExecStart=/bin/bash /usr/bin/dell-fan-control-service.sh
