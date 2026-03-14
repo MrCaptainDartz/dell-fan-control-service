@@ -1,5 +1,5 @@
 [Unit]
-Description=Start dell-fan-control every 15s
+Description=Start dell-fan-control every minute
 
 [Timer]
 OnBootSec=60s
